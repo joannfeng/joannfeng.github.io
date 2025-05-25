@@ -11,9 +11,6 @@ function App() {
   return (
     <>
       <Main/>
-      <h1 className="text-3xl ">
-        <Nav />
-      </h1>
     </>
 
     // <div>
