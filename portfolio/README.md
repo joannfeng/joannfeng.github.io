@@ -1,4 +1,12 @@
-# joannfeng.github.io
+Welcome!
+
+This is my responsive web and mobile-friendly
+portfolio, built using React JS and Tailwind CSS.
+
+To run the code:
+
+1. `npm i`
+2. `npm run dev`
 
 # React + Vite
 
