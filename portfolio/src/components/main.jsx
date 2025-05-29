@@ -1,6 +1,7 @@
 import Navbar from "./navbar"
 import Hero from "./hero"
 import Projects from "./projects"
+import Footer from "./footer"
 
 const main = () => {
     return (
@@ -8,6 +9,7 @@ const main = () => {
             <Navbar/>
             <Hero/>
             <Projects/>
+            <Footer/>
         </div>
     )
 }
