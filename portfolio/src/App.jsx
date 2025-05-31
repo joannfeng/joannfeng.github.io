@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
 import Projects from "./components/projects";
+import Resume from "./components/resume";
 import Footer from "./components/footer";
 import Contact from "./components/contact";
 
@@ -20,13 +21,14 @@ function App() {
                 <>
                   <Hero />
                   <Projects />
-                  <Footer />
                 </>
               }
             />
+            <Route path="/resume" element={<Resume />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
+        <Footer />
       </BrowserRouter>
     )
 }

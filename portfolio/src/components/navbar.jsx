@@ -25,7 +25,6 @@ function closeMenu(){
                     <div className='hidden md:block space-x-2'>
                         <Link to="/" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Home</Link>
                         <Link to="/resume" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Resume</Link>
-                        <Link to="/projects" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Projects</Link>
                         <Link to="/contact" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Contact</Link>
                     </div>
                     <div className='block md:hidden'>
@@ -45,7 +44,6 @@ function closeMenu(){
                             <li className='text-white hover:bg-indigo-800 text-xl mb-2 cursor-pointer'>Home</li>
                             {/* <li className='text-white hover:bg-indigo-800 text-xl mb-2 cursor-pointer'>About Me</li> */}
                             <li className='text-white hover:bg-indigo-800 text-xl mb-2 cursor-pointer'>Resume</li>
-                            <li className='text-white hover:bg-indigo-800 text-xl mb-2 cursor-pointer'>Projects</li>
                             <li className='text-white hover:bg-indigo-800 text-xl mb-2 cursor-pointer'>Contact</li>
                         </ul>
                     </div>

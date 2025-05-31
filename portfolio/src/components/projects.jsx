@@ -24,7 +24,7 @@ export default function Projects() {
                                     </p>
                                 </div>
                                 <div className="md:shrink-0 p-5">
-                                    <img src={Project1Img} alt="Project1" width={150} height={150}></img>
+                                    <img src={Project2Img} alt="Project2" width={150} height={150}></img>
                                 </div>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ export default function Projects() {
                             <div className="md:flex">
                                 <div className="p-8">
                                     <div className="uppercase tracking-wide text-sm to-indigo-500 font-semibold">
-                                        Project1
+                                        Project2
                                     </div>
                                     <a href="#">Subheading</a>
                                     <p className="mt-2 text-slate-500">
@@ -40,7 +40,7 @@ export default function Projects() {
                                     </p>
                                 </div>
                                 <div className="md:shrink-0 p-5">
-                                    <img src={Project1Img} alt="Project1" width={150} height={150}></img>
+                                    <img src={Project3Img} alt="Project3" width={150} height={150}></img>
                                 </div>
                             </div>
                         </div>
@@ -48,7 +48,7 @@ export default function Projects() {
                             <div className="md:flex">
                                 <div className="p-8">
                                     <div className="uppercase tracking-wide text-sm to-indigo-500 font-semibold">
-                                        Project1
+                                        Project3
                                     </div>
                                     <a href="#">Subheading</a>
                                     <p className="mt-2 text-slate-500">
@@ -56,7 +56,7 @@ export default function Projects() {
                                     </p>
                                 </div>
                                 <div className="md:shrink-0 p-5">
-                                    <img src={Project1Img} alt="Project1" width={150} height={150}></img>
+                                    <img src={Project4Img} alt="Project4" width={150} height={150}></img>
                                 </div>
                             </div>
                         </div>
@@ -64,7 +64,7 @@ export default function Projects() {
                             <div className="md:flex">
                                 <div className="p-8">
                                     <div className="uppercase tracking-wide text-sm to-indigo-500 font-semibold">
-                                        Project1
+                                        Project4
                                     </div>
                                     <a href="#">Subheading</a>
                                     <p className="mt-2 text-slate-500">
