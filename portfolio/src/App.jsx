@@ -1,43 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React, { useEffect, useState } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css'
-import Main from "./components/main"
+import Navbar from "./components/navbar";
+import Hero from "./components/hero";
+import Projects from "./components/projects";
+import Footer from "./components/footer";
+import Contact from "./components/contact";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <Main/>
-    </>
-
-    // <div>
-    //   <a href="https://vite.dev" target="_blank">
-    //     <img src={viteLogo} className="logo" alt="Vite logo" />
-    //   </a>
-    //   <a href="https://react.dev" target="_blank">
-    //     <img src={reactLogo} className="logo react" alt="React logo" />
-    //   </a>
-    // </div> 
-
-    // <h1>Joann Feng Portfolio Website</h1>
-    // <h1 class="text-3xl font-bold underline">
-    //   Hello world!
-    // </h1>
-
-    // <div className="card">
-    //   <button onClick={() => setCount((count) => count + 1)}>
-    //     count is {count}
-    //   </button>
-    //   <p>
-    //     Edit <code>src/App.jsx</code> and save to test HMR
-    //   </p>
-    // </div>
-    // <p className="read-the-docs">
-    //   Click on the Vite and React logos to learn more
-    // </p>
-  )
+  // const [count, setCount] = useState(0)
+    return (
+      <BrowserRouter>
+        <div className="bg-indigo-600">
+          <Navbar />
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <Hero />
+                  <Projects />
+                  <Footer />
+                </>
+              }
+            />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
+      </BrowserRouter>
+    )
 }
 
 export default App
