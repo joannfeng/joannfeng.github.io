@@ -6,20 +6,20 @@ import Project4Img from '../assets/placeholder.png'
 export default function Projects() {
     return (
         <>
-            <div className="bg-indigo-800 m-20 max-w-full">
+            <div className="bg-lion m-20 max-w-full rounded-full">
                 <div className="grid justify-items-center m-10">
-                    <h1 className="text-3xl text-white mt-10">Projects</h1>
+                    <h1 className="text-3xl text-ink mt-10 font-semibold">Projects</h1>
                 </div>
                 <div>
-                    <div className="grid grid-cols-2 gap-4 p-5">
-                        <div className="max-w-md wx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animated-pulse">
+                    <div className="grid grid-cols-2 gap-2 p-2">
+                        <div className="w-full max-w-sm mx-auto bg-bone rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animated-pulse">
                             <div className="md:flex">
                                 <div className="p-8">
-                                    <div className="uppercase tracking-wide text-sm to-indigo-500 font-semibold">
+                                    <div className="text-ink uppercase tracking-wide text-sm to-bone font-semibold">
                                         Project1
                                     </div>
-                                    <a href="#">Subheading</a>
-                                    <p className="mt-2 text-slate-500">
+                                    <a href="#" className="text-verdigris">Subheading</a>
+                                    <p className="mt-2 text-pine">
                                         Lorem ipsum
                                     </p>
                                 </div>
@@ -28,14 +28,14 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
-                        <div className="max-w-md wx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animated-pulse">
+                        <div className="w-full max-w-sm mx-auto bg-bone rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animated-pulse">
                             <div className="md:flex">
                                 <div className="p-8">
-                                    <div className="uppercase tracking-wide text-sm to-indigo-500 font-semibold">
+                                    <div className="text-ink uppercase tracking-wide text-sm to-bone font-semibold">
                                         Project2
                                     </div>
-                                    <a href="#">Subheading</a>
-                                    <p className="mt-2 text-slate-500">
+                                    <a href="#" className="text-verdigris">Subheading</a>
+                                    <p className="mt-2 text-pine">
                                         Lorem ipsum
                                     </p>
                                 </div>
@@ -44,14 +44,14 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
-                        <div className="max-w-md wx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animated-pulse">
+                        <div className="w-full max-w-sm mx-auto bg-bone rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animated-pulse">
                             <div className="md:flex">
                                 <div className="p-8">
-                                    <div className="uppercase tracking-wide text-sm to-indigo-500 font-semibold">
+                                    <div className="text-ink uppercase tracking-wide text-sm to-bone font-semibold">
                                         Project3
                                     </div>
-                                    <a href="#">Subheading</a>
-                                    <p className="mt-2 text-slate-500">
+                                    <a href="#" className="text-verdigris">Subheading</a>
+                                    <p className="mt-2 text-pine">
                                         Lorem ipsum
                                     </p>
                                 </div>
@@ -60,14 +60,14 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
-                        <div className="max-w-md wx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animated-pulse">
+                        <div className="w-full max-w-sm mx-auto bg-bone rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animated-pulse">
                             <div className="md:flex">
                                 <div className="p-8">
-                                    <div className="uppercase tracking-wide text-sm to-indigo-500 font-semibold">
+                                    <div className="text-ink uppercase tracking-wide text-sm to-bone font-semibold">
                                         Project4
                                     </div>
-                                    <a href="#">Subheading</a>
-                                    <p className="mt-2 text-slate-500">
+                                    <a href="#" className="text-verdigris">Subheading</a>
+                                    <p className="mt-2 text-pine">
                                         Lorem ipsum
                                     </p>
                                 </div>
@@ -77,8 +77,8 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
-                    <hr/>
-                    <div className='grid grid-cols-2 gap-4 p-5'>
+                    {/* <hr className="my-4 border-t border-green-200 w-1/3" /> */}
+                    <div className='grid grid-cols-2 gap-2 p-3'>
 
                     </div>
                 </div>

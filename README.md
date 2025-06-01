@@ -3,6 +3,9 @@ Welcome!
 This is my responsive web and mobile-friendly
 portfolio, built using React JS and Tailwind CSS.
 
+To access the website, navigate to:
+https://joannfeng.github.io/
+
 To run the code, make sure you are in the
 portfolio directory, then:
 
