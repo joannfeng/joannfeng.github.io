@@ -7,7 +7,7 @@ import {BsGithub} from 'react-icons/bs';
 export default function Footer() {
     return (
         <footer
-        className="bg-black text-center text-white">
+        className="bg-ink text-center text-verdigris">
             <div className="flex justify-between items-center  max-w-3xl mx-auto w-full py-6 px-6">
                 <span>Copyright &copy; 2025 Joann Feng</span>
                 <div className="flex items-center space-x-4">

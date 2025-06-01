@@ -12,7 +12,7 @@ function App() {
   // const [count, setCount] = useState(0)
     return (
       <BrowserRouter>
-        <div className="bg-indigo-600">
+        <div className="bg-bone">
           <Navbar />
           <Routes>
             <Route
