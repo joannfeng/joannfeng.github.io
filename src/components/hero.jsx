@@ -1,7 +1,7 @@
 import {BsLinkedin} from 'react-icons/bs';
 import HeroPic from "../assets/placeholder.png";
 
-const hero = () => {
+const Hero = () => {
     return (
         <section className='flex justify-around items-center p-10 space-x-10 md:flex-row flex-col space-y-10 text-ink'>
             <div className='md:w-1/3 w-fit'>
@@ -34,4 +34,4 @@ const hero = () => {
     )
 }
 
-export default hero
+export default Hero

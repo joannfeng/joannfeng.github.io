@@ -4,7 +4,7 @@ import {HiMenuAlt1} from 'react-icons/hi';
 import {useState} from 'react';
 import { Link } from 'react-router-dom';
 
-const nav = () => {
+const Navbar = () => {
 
 const [toggle, setToggle] = useState(false);
 
@@ -17,7 +17,7 @@ function closeMenu(){
 
     return (
         <>
-            <div className="flex items-center justify-between p-10 md:flex-row bg-pine">
+            <div className="sticky top-0 z-50 flex items-center justify-between p-10 md:flex-row bg-pine">
                 <div>
                     <a href="/" className="text-bone font-mono text-3xl tracking-wider flex items-center"><CgNametag/> Joann Feng</a>
                 </div>
@@ -42,7 +42,6 @@ function closeMenu(){
                     <div className='flex justify-between ml-10'>
                         <ul>
                             <li className='text-bone hover:bg-ink text-xl mb-2 cursor-pointer'>Home</li>
-                            {/* <li className='text-orange-100 hover:bg-emerald-800 text-xl mb-2 cursor-pointer'>About Me</li> */}
                             <li className='text-bone hover:bg-ink text-xl mb-2 cursor-pointer'>Resume</li>
                             <li className='text-bone hover:bg-ink text-xl mb-2 cursor-pointer'>Contact</li>
                         </ul>
@@ -55,4 +54,4 @@ function closeMenu(){
     )
 }
 
-export default nav
+export default Navbar
